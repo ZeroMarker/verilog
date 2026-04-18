@@ -1,5 +1,7 @@
 # https://gist.github.com/donn/d9ecf0cf6e7ae3d99c7c4395e7e10afa
 
+winget install Icarus.Verilog
+
 iverilog -o inverter.vvp inverter_tb.v
 vvp inverter.vvp
 
